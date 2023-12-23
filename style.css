@@ -17,6 +17,9 @@ body{
 /*************Hero Start************/
 .hero{
     background: #1F2937;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -30,7 +33,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 110px;
 }
 
 .nav-links {
@@ -58,4 +61,45 @@ body{
     list-style-type: none;
     display: inline-block;
     margin-left: 30px;
+}
+
+.hero-img {
+    flex: 1;
+    background-color: gray;
+    margin-right: 90px;
+    margin-left: 20px;
+    height: 255px;
+}
+
+.hero-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hero-details {
+    flex: 1;
+    margin-left: 110px;
+}
+
+.hero-details > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 10px;
+}
+
+.hero-details > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+
+.hero-details > button {
+    background-color: #3882F6;
+    padding: 8px 20px;
+    border: none;
+    color: #E5E7EB;
+    border-radius: 5px;
+    margin: 10px;
 }
