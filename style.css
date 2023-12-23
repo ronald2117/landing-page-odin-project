@@ -14,31 +14,47 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#hero{
+/*************Hero Start************/
+.hero{
     background: #1F2937;
 }
 
-#hero-logo{
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.nav-links {
+    margin-right: 90px;
+}
+
+.nav-links > ul {
+    padding: 0;
+}
+
+.hero-logo{
     font-size: 24px;
     color: #F9FAF8;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 900;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50em;
-    height: 70px;
-}
-
-nav ul li a{
+.nav-links ul li a{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
-nav ul li {
+.nav-links ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 30px;
