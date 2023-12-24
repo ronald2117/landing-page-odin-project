@@ -14,7 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*************       Hero Start         ************/
+/*************       Hero Page Start         ************/
 .hero{
     background: #1F2937;
     min-height: 95vh;
@@ -104,7 +104,7 @@ body{
     margin: 10px;
 }
 
-/*************         RandInfo Start        ************/
+/*************         RandInfo Page Start        ************/
 
 .random-information {
     color: #1F2937;
@@ -142,4 +142,27 @@ body{
     text-align: center;
 }
 
+/*************         Testimonial Page Start        ************/
+.testimonial-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
 
+.quote {
+    padding: 50px
+}
+.quote > blockquote {
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 300;
+    width: 700px;    
+}
+
+.quote > p {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 55px;
+}
