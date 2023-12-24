@@ -14,7 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*************Hero Start************/
+/*************       Hero Start         ************/
 .hero{
     background: #1F2937;
     min-height: 95vh;
@@ -103,3 +103,43 @@ body{
     border-radius: 5px;
     margin: 10px;
 }
+
+/*************         RandInfo Start        ************/
+
+.random-information {
+    color: #1F2937;
+    height: 450px;
+    padding: 20px;
+}
+
+.rand-info-title {
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+}
+
+.rand-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rand-info-item {
+    flex-grow: 0;
+    width: 200px;
+    margin: 20px;
+
+}
+
+.rand-info-item > img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.rand-info-item > p {
+    text-align: center;
+}
+
+
