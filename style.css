@@ -1,21 +1,21 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
 }
-
-body{
+    
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 /*************       Hero Page Start         ************/
-.hero{
+.hero {
     background: #1F2937;
     min-height: 95vh;
     display: flex;
@@ -97,11 +97,15 @@ body{
 
 .hero-details > button {
     background-color: #3882F6;
-    padding: 8px 20px;
+    padding: 10px 22px;
     border: none;
     color: #E5E7EB;
     border-radius: 5px;
     margin: 10px;
+}
+
+.hero-details > button:hover {
+    cursor: pointer;
 }
 
 /*************         RandInfo Page Start        ************/
@@ -165,4 +169,60 @@ body{
     font-size: 20px;
     font-weight: 700;
     margin-right: 55px;
+}
+
+/*************         Testimonial Page Start        ************/
+.call-to-action-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 70px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-details > button {
+    margin-left: 400px;
+    padding: 8px 20px;
+    border: 3px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.cta-details > button:hover {
+    background-color: white;
+    color: #3882F6;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.cta-info > p{
+    margin: 5px;
+}
+
+/*************         Footer Page Start        ************/
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
 }
